@@ -1,0 +1,13 @@
+.rta {
+    max-width: 20rem;
+    background-color: #f1f1f1;
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: .5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

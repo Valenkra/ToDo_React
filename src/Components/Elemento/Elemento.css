@@ -1,0 +1,85 @@
+input[type="checkbox"]{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ff5e00;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+input[type="checkbox"]:checked {
+    
+    background-color: rgb(255, 166, 0);
+}
+
+label {    
+    margin-left: .3rem;
+    width: 18em;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.elemento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22rem;
+    padding: .5rem 1rem;
+    margin: 0 auto;
+    background-color: inherit;
+}
+
+.noTachado {
+    color: #000;
+}
+
+.elemento_content {
+    display: flex;
+    align-items: center;
+}
+
+.trash {
+    width: 1.5rem;
+    height: auto;
+}
+
+.tachado {
+    text-decoration: line-through;
+    background-color: #ffd9a2;
+    color: #717171;
+}
+
+.container {
+    align-items: center;
+    width: 24rem;
+    margin: 0 auto;
+    border-width: 0 0 1px 0;
+    border-style: inset;
+    border-color: transparent;
+}
+
+.bordes {
+    border-color: #ff8b21;
+}
+
+.par {
+    background-color: #f1f1f1;
+
+}
+
+.impar {
+    background-color: #c5c5c5;
+}
+
+img {
+    cursor: pointer;
+}
+
+img:hover {
+    filter: invert(16%) sepia(100%) saturate(6551%) hue-rotate(1deg) brightness(114%) contrast(116%);
+}

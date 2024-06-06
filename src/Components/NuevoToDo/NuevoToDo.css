@@ -1,0 +1,6 @@
+.NuevoToDo {
+    justify-content: space-between;
+    width: 24rem;
+    display: flex;
+    margin: 5px auto;
+}
